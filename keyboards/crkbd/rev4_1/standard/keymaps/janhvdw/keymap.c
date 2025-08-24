@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 const uint16_t LCTL_A = LCTL_T(KC_A);
 const uint16_t LALT_S = LALT_T(KC_S);
 const uint16_t LGUI_D = LGUI_T(KC_D);
-const uint16_t LSFT_F = LSFT_T(KC_T);
+const uint16_t LSFT_F = LSFT_T(KC_F);
 const uint16_t RSFT_J = RSFT_T(KC_J);
 const uint16_t RGUI_K = RGUI_T(KC_K);
 const uint16_t RALT_L = RALT_T(KC_L);
