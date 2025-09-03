@@ -29,10 +29,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define MASTER_LEFT
 
-#define TAPPING_TERM 200
-#define QUICK_TAP_TERM 80
+#define TAPPING_TERM 180
+#define QUICK_TAP_TERM 100
 #undef FLOW_TAP_TERM
-#define FLOW_TAP_TERM 150
+#define FLOW_TAP_TERM 120
 
 #define PERMISSIVE_HOLD
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
