@@ -50,7 +50,7 @@ const uint16_t RALT_MFFD = RALT_T(KC_MFFD);
 const uint16_t RCTL_F11 = RCTL_T(KC_F11);
 
 
-const uint16_t LT3_NO = LT(3, KC_NO);
+const uint16_t LT3_CW = LT(3, CW_TOGG);
 const uint16_t LGUI_BSPC = LGUI_T(KC_BSPC);
 const uint16_t LT1_SPC = LT(1, KC_SPC);
 const uint16_t LT2_ENT = LT(2, KC_ENT);
@@ -67,7 +67,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //|----------+----------+----------+----------+----------+----------+----------|          |----------+----------+----------+----------+----------+----------+----------|
        KC_GRV,      KC_Z,      KC_X,      KC_C,      KC_V,      KC_B, /*XXXXXX*/            /*XXXXXX*/      KC_N,      KC_M,   KC_COMM,    KC_DOT,   KC_SLSH,     KC_NO,
 //|----------+----------+----------+----------+----------+----------+----------|          |----------+----------+----------+----------+----------+----------+----------|
-    /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/    LT3_NO, LGUI_BSPC,   LT1_SPC,              LT2_ENT,  RGUI_DEL,     KC_NO /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/
+    /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/    LT3_CW, LGUI_BSPC,   LT1_SPC,              LT2_ENT,  RGUI_DEL,     KC_NO /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/
 //,----------------------------------------------------------------------------,          ,----------------------------------------------------------------------------,
 	),
     [1] = LAYOUT_split_3x6_3_ex2(
@@ -116,7 +116,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //|----------+----------+----------+----------+----------+----------+----------|          |----------+----------+----------+----------+----------+----------+----------|
        KC_GRV,      KC_Z,      KC_X,      KC_C,      KC_V,      KC_B, /*XXXXXX*/            /*XXXXXX*/      KC_N,      KC_M,   KC_COMM,    KC_DOT,   KC_SLSH,     KC_NO,
 //|----------+----------+----------+----------+----------+----------+----------|          |----------+----------+----------+----------+----------+----------+----------|
-    /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/    LT3_NO, LGUI_BSPC,   LT1_SPC,              LT2_ENT,  RGUI_DEL,     KC_NO, /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/
+    /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/    LT3_CW, LGUI_BSPC,   LT1_SPC,              LT2_ENT,  RGUI_DEL,     KC_NO, /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/ /*XXXXXX*/
 //,----------------------------------------------------------------------------,          ,----------------------------------------------------------------------------,
 	),
     [1] = LAYOUT_split_3x6_3(
